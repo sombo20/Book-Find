@@ -1,0 +1,104 @@
+body{
+	padding:0;
+	margin:0;
+	background:#fff;
+}
+
+.header{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-family:fantasy;
+	color:orange;
+}
+
+.section {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+
+.section input {
+	padding:16px;
+	width:40ch;
+	outline:none;
+	text-align:center;
+	border:1px solid rgb(222,222,222);
+	box-shadow:0px 0px 6px rgb(222,222,222);
+	margin-bottom:4px;
+}
+
+.section button{
+	padding:16px;
+	width:40ch;
+	outline:none;
+	text-align:center;
+	background:orange;
+	color:#fff;
+	border:1px solid rgb(222,222,222);
+	margin-bottom:25px;
+}
+
+.footer {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-family:cursive;
+}
+
+.footer span a{
+	margin:4px;
+	text-decoration:none;
+	color:orange;
+}
+
+.resultado {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+	flex-direction:column;
+}
+
+.resultado  .resposta {
+	width:90%;
+	height:30ch;
+	background:#fff;
+	border:1px solid #fff;
+	box-shadow:0px 0px 10px #cdcece;
+	margin:17px;
+}
+
+
+.resultado  .resposta span h4 {
+	padding:2px;
+	font-family:Verdana,Arial,sans-serif;
+	text-overflow:14px;
+	margin:4px;
+	margin-bottom:18px;
+}
+
+.resultado  .resposta span img{
+	margin-left:80px;
+	width:150px;
+	height:12ch;
+}
+
+.text{
+	 display:flex;
+	 flex-direction:row;
+	 height:2ch;
+	  }
+	  
+.text p{
+	 position:relative;
+	 top:6px;
+	 left:6px;
+}
+	  
+.Info{
+	 display:flex;
+	 flex-direction:column;
+	 margin:4px;
+}
